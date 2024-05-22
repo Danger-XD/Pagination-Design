@@ -39,6 +39,7 @@ ul li.active{
 ul li:hover{
   background-color: var(--green-color);
   color: var(--white-color);
+  cursor: pointer;
 }
 ul li:hover:not(.active){
   background-color: var(--yellow-color);
